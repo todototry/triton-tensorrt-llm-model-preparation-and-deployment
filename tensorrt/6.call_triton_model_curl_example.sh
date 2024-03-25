@@ -1,0 +1,1 @@
+curl -X POST localhost:8000/v2/models/ensemble/generate -d '{"text_input": "Türkiye nin doğusunda ne var?", "max_tokens": 200, "bad_words": "", "stop_words": ""}'
